@@ -1,0 +1,19 @@
+{
+  "title": "Employee Creation Response Body",
+  "description": "Response For Create Operation",
+  "type": "object",
+  "properties": {
+    "status": {
+      "description": "status",
+      "type": "String"
+    },
+    "message": {
+      "description": "error message",
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "message"
+  ]
+}
